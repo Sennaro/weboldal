@@ -1,11 +1,14 @@
 body {
     background-color: #F9DF76;
+    font-family: 'Times New Roman';
   }
   
   h1 {
-    color: #1E1E24;
+    color: #04304E;
     text-align: center;
     font-size: 250%;
+    background-image: url('');
+    
   }
   
   p {
