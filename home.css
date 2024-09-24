@@ -24,8 +24,9 @@ body {
   }
   
   p {
-    font-size: 20px;
+    font-size: 30%;
     color: #1E1E24;
+    text-align: center;
   }
   .container {
     display: flex;
@@ -69,13 +70,20 @@ body {
     background-color: #F9DF76;
   }
 
-  .foto {
-    flex: 1 1 calc(25% - 40px); 
+  .kep { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    justify-content: space-around;
   }
   
-  .ez img {
-    max-width: 25%;
-    border-radius: 10px;
+  .kep img {
+    height: auto;
+    width: 25%;
+    align-items: center;
+    border: 5px solid #04304E;
   }
 
 @media screen and (max-width: 600px) {
