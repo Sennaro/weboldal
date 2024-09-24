@@ -24,7 +24,7 @@ body {
   }
   
   p {
-    font-size: 30%;
+    font-size: 100%;
     color: #1E1E24;
     text-align: center;
   }
@@ -73,7 +73,6 @@ body {
   .kep { 
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 70px;
     justify-content: space-around;
