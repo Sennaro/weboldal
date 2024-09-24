@@ -1,5 +1,6 @@
 body {
-    background-image: url('IMG_5285.png');
+    /* background-image: url('IMG_5285.png'); */
+    background-color: aliceblue;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,7 +81,7 @@ body {
   
   .kep img {
     height: auto;
-    width: 25%;
+    width: 30%;
     align-items: center;
     border: 5px solid #04304E;
   }
