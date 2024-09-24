@@ -1,5 +1,11 @@
 body {
-    background-color: #F9DF76;
+    background-image: url('IMG_5285.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-attachment: fixed;
+    height: 300vh;
     font-family: 'Times New Roman';
   }
   
@@ -59,8 +65,12 @@ body {
     text-decoration: none;
   }
   
-  .about {
+  .about, .foto, .pro {
     background-color: #F9DF76;
+  }
+
+  .foto {
+    flex: 1 1 calc(25% - 40px); 
   }
 
 @media screen and (max-width: 600px) {
