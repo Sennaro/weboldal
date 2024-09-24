@@ -6,6 +6,13 @@ body {
   h1 {
     color: #04304E;
     text-align: center;
+    font-size: 300%;
+    
+  }
+
+  h3 {
+    color: #04304E;
+    text-align: center;
     font-size: 250%;
     
   }
@@ -39,8 +46,26 @@ body {
     margin: 10px;
   }
 
+  a:hover {
+    color: #F9DF76 ; 
+  }
+  
+  a:visited {
+    color: #F9DF76;
+  }
+  
+  a {
+    color: #F9DF76; 
+    text-decoration: none;
+  }
+  
+  .about {
+    background-color: #F9DF76;
+  }
+
 @media screen and (max-width: 600px) {
     .box {
         flex: 1 1 100%; 
     }
+
 }
