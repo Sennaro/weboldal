@@ -1,4 +1,3 @@
-
 const apiKey = '0eb6ec05013e5c72e2a09a1348e20a10';
 
 async function fetchTemperature(city) {

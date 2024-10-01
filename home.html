@@ -16,10 +16,22 @@
         <div class="nobox"> <a href="https://www.instagram.com/sennaro_photography/" target="_blank">
             <img src="Instagram_logo.png" width="5%"> </a> </div>
     </div>
+
+    <button onclick="scrollToTop()" class="back-to-top">🠉</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,           
+                behavior: 'smooth' 
+            });
+        }
+    </script>
+
     <section id="foto" class="foto">
         <h3>Fotóim.</h3>
         <div class="kep">
-             <img src="IMG_0469.png" alt = "dátum">
+             <!--<img src="IMG_0469.png" alt = "dátum">
              <img src="IMG_8368.png" alt = "dátum">
              <img src="IMG_56933.png" alt = "dátum">
 
@@ -33,24 +45,26 @@
 
             <img src="IMG_7913.png" alt = "dátum">
             <img src="IMG_7229.png" alt = "dátum">
-            <img src="IMG_5285.png" alt = "dátum">
+            <img src="IMG_5285.png" alt = "dátum"> -->
                 
     </div>
     </section>
     <section id="pro" class="pro">
             <h3>Munkáim.</h3>
             <p> Még nincs, majd :D</p>
-            <h4>Find the Temperature of a City</h4>
+            <div class="munka">
+                <h4>Városok hőmérséklete</h4>
+                <input type="text" id="city-input" placeholder="Írd be a várost" />
+                <button id="getTemperature" text-align: center>Hőmérséklet</button>
 
-            <input type="text" id="city-input" placeholder="Írd be a várost" />
-          <button id="getTemperature">Get Temperature</button>
-
-            <div id="temp-result"></div>
-            <script src="script.js"></script>
+                <div id="temp-result"></div>
+                <script src="script.js"></script>
+            </div>
     </section>
     <section id="about" class="about">
         <h3>Rólam.</h3>
-        <p>Ezen az oldalon minden felhasznált kép saját.</p>
+        <p>Rózsa Vivien vagyok, a BME Termék- és formatervező szakának hallgatója. Hobbim a fotózás és a Gépészkar fotókörének próbatagja is vagyok.
+            Szeretnék ezzel akár komolyabban is gondolkozni a jövőben, de majd meglátom. Ezen az oldalon minden felhasznált kép saját.</p>
     </section>
 </body>
 </html>

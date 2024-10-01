@@ -1,5 +1,5 @@
 body {
-    /* background-image: url('IMG_5285.png'); */
+     background-image: url('IMG_8684.JPg');
     background-color: aliceblue;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,8 +24,14 @@ body {
     
   }
   
+  h4 {
+    color: #04304E;
+    font-size: 150%;
+    text-align: left;
+  }
+  
   p {
-    font-size: 100%;
+    font-size: 150%;
     color: #1E1E24;
     text-align: center;
   }
@@ -34,6 +40,7 @@ body {
     flex-wrap: wrap;
     padding: 1%;
     justify-content: center;
+    margin-bottom: 40%;
 }
 
   .box {
@@ -53,6 +60,10 @@ body {
     text-align: center;
     margin: 10px;
   }
+  .nobox img {
+    height: auto;
+    width: 7%;
+  }
 
   a:hover {
     color: #F9DF76 ; 
@@ -68,7 +79,21 @@ body {
   }
   
   .about, .foto, .pro {
-    background-color: #F9DF76;
+    background-color: #F9DF76; 
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 2.5%;
+    margin-bottom: 10%;
+  }
+  .munka {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    justify-content: space-around;
+    margin: 10px 0;
   }
 
   .kep { 
@@ -91,4 +116,22 @@ body {
         flex: 1 1 100%; 
     }
 
+}
+
+.back-to-top {
+  position: fixed;          
+  bottom: 20px;             
+  right: 20px;              
+  background-color: #F9DF76; 
+  color: #04304E;             
+  padding: 15px;            
+  border: none;             
+  border-radius: 5px;       
+  cursor: pointer;          
+  font-size: 150%;          
+  z-index: 1000;            
+}
+
+.back-to-top:hover {
+  background-color: #F9DF76; 
 }
